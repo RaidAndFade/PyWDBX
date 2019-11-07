@@ -5,6 +5,7 @@ import json
 
 from PyWDBX.utils.dbx import get_hash_from_table
 
+# The version we are converting, output will be <cv>.json
 cv = "27075"
 
 e = ET.parse(cv+".xml")
